@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    height: 85px;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo {
+    margin-right: 10px;
+    height: 30px;
+    padding-left: 80px;
+}
+
+.navbar-company {
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.navbar-titles {
+    display: flex;
+    gap: 10px;
+    margin-right: 100px;
+    padding-top: 10px;
+}
+
+.navbar-title {
+    padding: 5px 10px;
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-line {
+    height: 2px;
+    margin-bottom: 10px;
+}
+
+.main-content {
+    margin-top: 50px;
+}
+
+#logomain {
+    width: 90px;
+    height: 40px;
+
+}
+
+.navbar-company {
+    font-size: 22px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+
+/* Media query */
+@media screen and (max-width: 992px) {
+    body {
+
+        color: rgb(0, 0, 0);
+    }
+
+    .navbar-titles {
+        padding-top: 15px;
+        margin-right: 20px;
+    }
+
+    .navbar-logo {
+        padding-left: 40px;
+    }
+}
+
+#homemain {
+    background: url('Images/wave.svg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 600px;
+    display: flex;
+}
+
+#leftmain {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+#rightmain {
+    float: right;
+    width: 50%;
+    height: 100%;
+    background: url('https://static.wixstatic.com/media/b21544_2123f07ca2b14bba945d280a1c6cfea2~mv2.png/v1/fill/w_623,h_623,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/b21544_2123f07ca2b14bba945d280a1c6cfea2~mv2.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+#hacktm{
+    margin-top: 70px;
+    margin-left: 200px;
+}
+#hacktmhead{
+    font-size: 40px;
+}
+#hacktmline2{
+    font-size: 20px;
+}
+#hacktmline4{
+    display: flex;
+}
+#col{
+    display: flex;
+    float: left;
+    width: 33%;
+}
+#com{
+    display: flex;
+    float: left;
+    width: 33%;
+}
+#cre{
+    display: flex;
+    float: left;
+    width: 33%;
+}
+.line4con{
+    padding-bottom: 10px;
+}
+.line4img{
+    margin-top: 7px;
+}
