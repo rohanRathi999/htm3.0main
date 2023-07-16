@@ -102,37 +102,777 @@ body {
     background-repeat: no-repeat;
     background-position: right bottom;
 }
-#hacktm{
+
+#hacktm {
     margin-top: 70px;
     margin-left: 200px;
 }
-#hacktmhead{
+
+#hacktmhead {
     font-size: 40px;
 }
-#hacktmline2{
+
+#hacktmline2 {
     font-size: 20px;
 }
-#hacktmline4{
+
+#hacktmline4 {
     display: flex;
 }
-#col{
-    display: flex;
-    float: left;
-    width: 33%;
-}
-#com{
+
+#col {
     display: flex;
     float: left;
     width: 33%;
 }
-#cre{
+
+#com {
     display: flex;
     float: left;
     width: 33%;
 }
-.line4con{
+
+#cre {
+    display: flex;
+    float: left;
+    width: 33%;
+}
+
+.line4con {
     padding-bottom: 10px;
 }
-.line4img{
+
+.line4img {
     margin-top: 7px;
+}
+
+#closedbtn {
+    width: 120px;
+    height: 34px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+#closedbtn:hover {
+    background-color: #a1770c;
+    color: black;
+    border: black 1px solid;
+}
+
+#discordbtn:hover {
+    background-color: black;
+    color: #ffbf23;
+    border: black 1px solid;
+}
+
+#discordbtn {
+    width: 120px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: #ffbf23;
+    color: black;
+    border: black 1px solid;
+}
+
+#collabmr {
+    margin-top: 25px;
+    font-size: 17px;
+}
+
+#intro {
+    background-color: #261081;
+    height: 100%;
+    padding-bottom: 10px;
+}
+
+#introleft1 {
+    float: left;
+    width: 50%;
+    padding-top: 01px;
+    padding-left: 200px;
+}
+
+#introright1 {
+    float: left;
+    width: 50%;
+    padding-top: 01px;
+    padding-left: 200px;
+}
+
+#introleft11 {
+    font-size: 30px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Victor Mono', monospace;
+}
+
+#intro1 {
+    display: flex;
+}
+
+#introleftp {
+    font-size: 15px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Victor Mono', monospace;
+}
+
+#introimg1 {
+    padding-top: 50px;
+}
+
+#intro2 {
+    display: flex;
+}
+
+#introleft2 {
+    float: left;
+    width: 50%;
+    padding-top: 01px;
+    padding-left: 200px;
+
+}
+
+#introimg2 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 70px;
+}
+
+#introright2 {
+    float: left;
+    width: 60%;
+    padding-right: 100px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Victor Mono', monospace;
+}
+
+#introrightp {
+    font-size: 15px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Victor Mono', monospace;
+}
+
+#tracks {
+    padding-top: 75px;
+}
+
+#alltracks1 {
+    display: flex;
+    width: 1100px;
+    height: 100%;
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Victor Mono', monospace;
+
+}
+
+#track1 {
+    float: left;
+    width: 25%;
+}
+
+#track2 {
+    float: left;
+    width: 25%;
+}
+
+#track3 {
+    float: left;
+    width: 25%;
+}
+
+#track4 {
+    float: left;
+    width: 25%;
+}
+
+#alltracks2 {
+    display: flex;
+    width: 1100px;
+    height: 100%;
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Victor Mono', monospace;
+    margin-bottom: 75px;
+}
+
+#prize {
+    background-color: #fafafa;
+    height: 450px;
+}
+
+#prizepool {
+    padding-top: 60px;
+    font-size: 50px;
+}
+
+#alertprize {
+    background-color: #fafafa;
+    font-size: 13px;
+    margin-left: 60%;
+}
+
+#glimpsesmain {
+    display: flex;
+    height: 600px;
+}
+
+#glimpseleft {
+    float: left;
+    width: 50%;
+}
+
+#glimpseright {
+    float: left;
+    width: 50%;
+}
+
+#headglimpse {
+    margin-left: 60px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Victor Mono', monospace;
+}
+
+#glimpseimg {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+#gltopic {
+    display: flex;
+}
+
+#glt1 {
+    float: left;
+    width: 33%;
+}
+
+#glt2 {
+    float: left;
+    width: 33%;
+}
+
+#glt3 {
+    float: left;
+    width: 33%;
+}
+
+#glimpsebody {
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 125px;
+}
+
+
+#headsponsors {
+    margin: 00px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Victor Mono', monospace;
+}
+
+#allsponsors {
+    width: 75%;
+    margin: auto;
+}
+
+.headings {
+    padding-top: 30px;
+    margin: 5px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Victor Mono', monospace;
+}
+
+.sline {
+    float: left;
+}
+
+.simgdiv {
+    margin-top: 40px;
+    display: flex;
+}
+
+.simgdiv2 {
+    display: flex;
+}
+
+.simgdiv3 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.simg {
+    width: 200px;
+    float: left;
+}
+
+.simg1 {
+    width: 250px;
+    float: left;
+}
+
+.simg2 {
+    width: 500px;
+    float: left;
+}
+
+.simg3 {
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+
+.simg4 {
+    margin-left: 10px;
+    width: 250px;
+    height: 100px;
+    float: left;
+}
+
+.simg5 {
+    margin-left: 40px;
+    width: 400px;
+    height: 120px;
+    float: left;
+}
+
+.simg6 {
+    margin-left: 40px;
+    width: 250px;
+    height: 100px;
+    float: left;
+}
+
+.simg7 {
+    margin-left: 40px;
+    width: 250px;
+    height: 100px;
+    float: left;
+}
+
+.simg8 {
+    margin-left: 40px;
+    width: 250px;
+    height: 100px;
+    float: left;
+}
+
+.simg9 {
+    margin-left: 40px;
+    width: 250px;
+    height: 100px;
+    float: left;
+}
+
+.simg10 {
+    padding-top: 50;
+    margin-left: 40px;
+    width: 300px;
+    height: 80px;
+    float: left;
+}
+
+.simg11 {
+    margin-left: 40px;
+    width: 90px;
+    height: 80px;
+    float: left;
+}
+
+.simg12 {
+    margin-left: 40px;
+    width: 350px;
+    height: 80px;
+    float: left;
+}
+
+.simg13 {
+    margin-left: 40px;
+    width: 150px;
+    height: 100px;
+    float: left;
+}
+
+.simg14 {
+    margin-left: 40px;
+    width: 350px;
+    height: 100px;
+    float: left;
+}
+
+.simg15 {
+    margin-left: 40px;
+    width: 350px;
+    height: 100px;
+    float: left;
+}
+
+.simg16 {
+    margin-left: 40px;
+    width: 350px;
+    height: 100px;
+    float: left;
+}
+
+.simg17 {
+    margin-left: 40px;
+    width: 350px;
+    height: 100px;
+    float: left;
+}
+
+.simg18 {
+    margin-left: 40px;
+    width: 350px;
+    height: 100px;
+    float: left;
+}
+
+.simg19 {
+    margin-left: 40px;
+    width: 350px;
+    height: 100px;
+    float: left;
+}
+
+.simg20 {
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.simg21 {
+    margin-left: 40px;
+    width: 350px;
+    height: 100px;
+    float: left;
+}
+
+.simg22 {
+    margin-left: 40px;
+    width: 350px;
+    height: 100px;
+    float: left;
+}
+
+.simg23 {
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.simg24 {
+    margin-left: 40px;
+    width: 150px;
+    height: 100px;
+    float: left;
+}
+
+.simg25 {
+    margin-left: 40px;
+    width: 400px;
+    height: 100px;
+    float: left;
+}
+
+.simg26 {
+    margin-left: 40px;
+    width: 300px;
+    height: 100px;
+    float: left;
+}
+
+.simg27 {
+    margin-left: 40px;
+    width: 250px;
+    height: 75px;
+    float: left;
+}
+
+.simg28 {
+    margin-left: 40px;
+    width: 150px;
+    height: 100px;
+    float: left;
+}
+
+.simg29 {
+    margin-left: 40px;
+    width: 300px;
+    height: 100px;
+    float: left;
+}
+
+.simg30 {
+    margin-left: 40px;
+    width: 300px;
+    height: 100px;
+    float: left;
+}
+
+.simg31 {
+    margin-left: 40px;
+    width: 300px;
+    height: 100px;
+    float: left;
+}
+
+.simg32 {
+    margin-left: 40px;
+    width: 250px;
+    height: 100px;
+    float: left;
+}
+
+.simg33 {
+    margin-left: 40px;
+    width: 300px;
+    height: 100px;
+    float: left;
+}
+
+.simg34 {
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.simg35 {
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.simg36 {
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.simg37 {
+    margin-left: 40px;
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.simg38 {
+    margin-left: 40px;
+    width: 300px;
+    height: 80px;
+    float: left;
+}
+
+.simg39 {
+    margin-left: 40px;
+    width: 250px;
+    height: 150px;
+    float: left;
+}
+
+.simg40 {
+    margin-left: 40px;
+    width: 300px;
+    height: 100px;
+    float: left;
+}
+
+.simg41 {
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.simg42 {
+    margin-left: 40px;
+    width: 250px;
+    height: 100px;
+    float: left;
+}
+
+.simg43 {
+    margin-left: 40px;
+    width: 250px;
+    height: 100px;
+    float: left;
+}
+
+.simg44 {
+    margin-left: 40px;
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.simg45 {
+    margin-left: 40px;
+    width: 350px;
+    height: 100px;
+    float: left;
+}
+
+.simg46 {
+    margin-left: 40px;
+    width: 250px;
+    height: 100px;
+    float: left;
+}
+
+.simg47 {
+    margin-left: 40px;
+    width: 250px;
+    height: 100px;
+    float: left;
+}
+
+.simg48 {
+    margin-left: 40px;
+    width: 350px;
+    height: 100px;
+    float: left;
+}
+
+#speakers {
+    height: 800px;
+    width: 75%;
+}
+
+#headspeaker {
+    margin: 15px;
+    margin-top: 60px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Victor Mono', monospace;
+}
+#speakimg{
+    width: 200px;
+    height: 200px;
+}
+#speaker1{
+    float: left;
+    width: 25%;
+}
+#speaker2{
+    float: left;
+    width: 25%;
+}
+#speaker3{
+    float: left;
+    width: 25%;
+}
+#speaker4{
+    float: left;
+    width: 25%;
+}
+#speakerline1{
+    display: flex;
+}
+#speakerline2{
+    display: flex;
+}
+.desc{
+   
+    font-size: 15px;
+}
+#sponus{
+    height: 100%;
+    background-color: #261081;
+}
+#spontwo{
+    display: flex;
+}
+#sponleft{
+    float: left;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 175px;
+}
+#sponright{
+    padding-top: 150px;
+    float: left;
+    width: 10%;
+
+}
+.sponlefth{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Victor Mono', monospace;
+}
+.sponleftp{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding-right: 200px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Victor Mono', monospace;
+}
+#btnspon{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: black 1px solid;
+    border-radius: 10px;
+}
+#sponlastline{
+    font-size: 20px;
+    color: white;
+    margin: 00px;
+}
+#sponlast{
+    padding-bottom: 15px;
+}
+#questions{
+    height: 400px;
+    background-color: #ffbf23;
+}
+#mainques{
+    font-family:lulo-clean-w01-one-bold,lulo-clean-w05-one-bold,sans-serif;
+    src: url(Fonts/FontsFree-Net-Lulo-Clean-W01-One-Bold.ttf);
+    padding-top: 80px;
+    margin: 00px;
+    font-size: 70px;
+    color: white ;
+}
+#faqmain{
+    display: flex;
+}
+#faqlogo{
+    margin-left: 300px;
+}
+#faq{
+    font-size: 20px;
+    width: 300px;
+    height: 45px;
+    background-color: #261081;
+    border: #261081 1px solid;
+    color: white;
+    margin-top: 80px;
 }
