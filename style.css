@@ -3,6 +3,10 @@ body {
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .navbar {
     background-color: #ffffff;
     padding: 10px;
@@ -1469,3 +1473,4 @@ body {
     height: 150px;
    }
   }
+
