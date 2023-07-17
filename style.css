@@ -222,6 +222,8 @@ body {
 
 #introimg1 {
     padding-top: 50px;
+    width: 350px;
+    height: 350px;
 }
 
 #intro2 {
@@ -265,6 +267,9 @@ body {
     padding-top: 75px;
 }
 
+.sponimg{
+    width: 400px;
+}
 #alltracks1 {
     display: flex;
     width: 1100px;
@@ -1176,4 +1181,291 @@ body {
     /* .footer-content-column {
         width: 49.99%;
     } */
+  }
+
+  @media only screen and (max-width: 1260px) {
+   #allsponsors{
+    width: 85%;
+   }
+   .simg13{
+    margin-left: 1px;
+   }
+   .simg14{
+    margin-left: 10px;
+    width: 250px;
+   }
+   .simg15{
+    margin-left: 10px;
+   }
+   .simg16{
+    margin-left: 10px;
+   }
+   .simg25{
+    margin-left: 10px;
+   }
+   .simg26{
+    margin-left: 10px;
+   }
+   .simg27{
+    margin-left: 10px;
+   }
+   .simg28{
+    margin-left: 10px;
+   }
+   .simg29{
+    margin-left: 10px;
+   }
+   .simg30{
+    margin-left: 10px;
+   }
+   .simg31{
+    margin-left: 10px;
+   }
+   .simg32{
+    margin-left: 10px;
+   }
+   .simg33{
+    margin-left: 10px;
+   }
+   .simg34{
+    margin-left: 10px;
+   }
+   .simg35{
+    margin-left: 10px;
+   }
+   .simg36{
+    margin-left: 10px;
+   }
+   
+  }
+
+  @media only screen and (max-width: 1160px) {
+   .sponimg{
+    width: 300px;
+    margin-top: 100px;
+   }
+   .simg17{
+    margin-left: 10px;
+   }
+   .simg18{
+    margin-left: 10px;
+   }
+   .simg19{
+    margin-left: 10px;
+   }
+   #alltracks1{
+    width: 100%;
+   }
+   #alltracks2{
+    width: 100%;
+   }
+   #hacktm{
+    margin-left: 100px;
+    margin-top: 40px;
+   }
+   #hacktmhead{
+  font-size: 35px;
+   }
+   .simg40{
+    margin-left: 10px;
+   }
+   .simg41{
+    margin-left: 10px;
+   }
+   .simg42{
+    margin-left: 10px;
+   }
+   .simg43{
+    margin-left: 10px;
+   }
+   #introright1{
+    padding-left: 100px;
+   }
+  }
+
+  @media only screen and (max-width: 1060px) {
+   .simg25{
+    width: 200px;
+    height: 60px;
+   }
+   .simg26{
+    width: 200px;
+    height: 60px;
+   }
+   .simg27{
+    width: 200px;
+    height: 60px;
+   }
+   .simg28{
+    width: 100px;
+    height: 60px;
+   }
+   .simg29{
+    width: 200px;
+    height: 60px;
+   }
+   .simg30{
+    width: 150px;
+    height: 60px;
+   }
+   .simg31{
+    width: 200px;
+    height: 60px;
+   }
+   .simg32{
+    width: 200px;
+    height: 60px;
+   }
+   .simg33{
+    width: 200px;
+    height: 60px;
+   }
+   .simg34{
+    width: 60px;
+    height: 60px;
+   }
+   .simg35{
+    width: 60px;
+    height: 60px;
+   }
+   .simg36{
+    width: 60px;
+    height: 60px;
+   }
+   .simg1{
+    width: 200px;
+    height: 100px;
+   }
+   .simg2{
+    width: 250px;
+    height: 100px;
+   }
+   .simg3{
+    width: 100px;
+    height: 100px;
+   }
+   .simg4{
+    width: 200px;
+    height: 60px;
+   }
+   .simg5{
+    width: 200px;
+    height: 60px;
+   }
+   .simg6{
+    width: 150px;
+    height: 60px;
+   }
+   .simg7{
+    width: 150px;
+    height: 60px;
+   }
+   .simg8{
+    width: 150px;
+    height: 60px;
+   }
+   .simg9{
+    width: 150px;
+    height: 60px;
+   }
+   .simg10{
+    width: 150px;
+    height: 60px;
+   }
+   .simg11{
+    width: 60px;
+    height: 60px;
+   }
+   .simg12{
+    width: 200px;
+    height: 60px;
+   }
+   .simg13{
+    width: 100px;
+    height: 60px;
+   }
+   .simg14{
+    width: 200px;
+    height: 60px;
+   }
+   .simg15{
+    width: 200px;
+    height: 60px;
+   }
+   .simg16{
+    width: 200px;
+    height: 60px;
+   }
+   .simg17{
+    width: 200px;
+    height: 60px;
+   }
+   .simg18{
+    width: 200px;
+    height: 60px;
+   }
+   .simg19{
+    width: 200px;
+    height: 60px;
+   }
+   .simg20{
+    width: 100px;
+    height: 60px;
+   }
+   .simg21{
+    width: 200px;
+    height: 60px;
+   }
+   .simg22{
+    width: 200px;
+    height: 60px;
+   }
+   .simg23{
+    width: 100px;
+    height: 100px;
+   }
+   .simg24{
+    width: 150px;
+    height: 100px;
+   }
+   .simg40{
+    width: 150px;
+    height: 60px;
+   }
+   .simg41{
+    width: 60px;
+    height: 60px;
+   }
+   .simg42{
+    width: 150px;
+    height: 60px;
+   }
+   .simg43{
+    width: 150px;
+    height: 60px;
+   }
+   .simg44{
+    width: 150px;
+    height: 60px;
+   }
+   .simg45{
+    width: 200px;
+    height: 60px;
+   }
+   .simg46{
+    width: 200px;
+    height: 60px;
+   }
+   .simg47{
+    width: 150px;
+    height: 60px;
+   }
+   .simg48{
+    width: 150px;
+    height: 60px;
+   }
+   #speakimg{
+    width: 150px;
+    height: 150px;
+   }
   }
