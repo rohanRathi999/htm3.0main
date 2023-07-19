@@ -1,9 +1,8 @@
-function toggleMenu() {
-    var navbarTitles = document.querySelector('.navbar-titles');
-    navbarTitles.classList.toggle('show');
-    var hamburgerLines = document.querySelectorAll('.hamburger-line');
-    hamburgerLines.forEach(function (line) {
-      line.classList.toggle('active');
-    });
-  }
+
+  const toggleBtn = document.getElementsByClassName('toggle-btn')[0]
+  const navitems = document.getElementsByClassName('nav-items')[0]
+  
+  toggleBtn.addEventListener('click', () => {
+    navitems.classList.toggle('active')
+  })
   
